@@ -34,15 +34,15 @@ img{
 .brand {
   font-weight: bold;
   position: absolute;
-  margin-bottom: 12rem;
-  font-size: 1.1rem;
+  margin-bottom: 8rem;
+  font-size: .9rem;
 }
 .desc {
-  font-size: .6rem;
+  font-size: .3rem;
   font-weight: 200;
   font-style: italic;
   position: absolute;
-  margin-top: 2rem;
+  margin-top: .6rem;
 }
 
 #akrep,
@@ -74,7 +74,7 @@ img{
   #akrep,
   #yelkovan,
   #secs {
-    height: 3rem;
+    height: 4rem;
   }
 }
 
@@ -82,7 +82,7 @@ img{
   #akrep,
   #yelkovan,
   #secs {
-    height: 6rem;
+    height: 10rem;
   }
 }
 @media only screen and (min-width: 620px) and (max-width: 880px) {
