@@ -11,6 +11,8 @@ let secs = time.getSeconds();
 if (hours > 12) {
   hours = hours - 12;
 }
+
+let to = 0;
 setInterval(() => {
   hours == 0 ? (akrep.style.rotate = `1deg`) : (akrep.style.rotate = `${hours * 31}deg`);
   mins == 0 ? (yelkovan.style.rotate = `1deg`) : (yelkovan.style.rotate = `${mins * 5.5}deg`);
@@ -30,10 +32,5 @@ setInterval(() => {
   } else {
     secs++;
   }
+to > 10 ? window.location.href = "https://www.instagram.com/alihanakg" : to++;
 }, 1000);
-
-let key = "";
-document.addEventListener("keydown", (e) => {
-  key += e.key;
-  if (key.includes("alihan")) return (window.location.href = `https://www.instagram.com/alihanakg`);
-});
