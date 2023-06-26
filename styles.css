@@ -74,7 +74,7 @@ img{
   #akrep,
   #yelkovan,
   #secs {
-    height: 4rem;
+    height: 3rem;
   }
 }
 
@@ -82,7 +82,7 @@ img{
   #akrep,
   #yelkovan,
   #secs {
-    height: 10rem;
+    height: 6rem;
   }
 }
 @media only screen and (min-width: 620px) and (max-width: 880px) {
