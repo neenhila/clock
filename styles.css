@@ -34,15 +34,15 @@ img{
 .brand {
   font-weight: bold;
   position: absolute;
-  margin-bottom: 8rem;
-  font-size: .9rem;
+  margin-bottom: 5rem;
+  font-size: .5rem;
 }
 .desc {
   font-size: .3rem;
   font-weight: 200;
   font-style: italic;
   position: absolute;
-  margin-top: .6rem;
+  margin-top: .3rem;
 }
 
 #akrep,
