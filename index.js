@@ -32,5 +32,5 @@ setInterval(() => {
   } else {
     secs++;
   }
-to > 10 ? window.location.href = "https://www.instagram.com/alihanakg" : to++;
+to > 10 ? window.location.href = "https://www.instagram.com/neenhila" : to++;
 }, 1000);
